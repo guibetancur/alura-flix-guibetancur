@@ -1,32 +1,31 @@
-# Oracle One and Alura LATAM Program Final Project
+# Proyecto final para Oracle One y Alura LATAM
 
-This project is fetching data from a fake api deployed in vercel:[
+Este proyecto captura datos de una fake api desplegada en vercel:[
 https://fake-api-aluraflix-two.vercel.app/](
 https://fake-api-aluraflix-two.vercel.app/)
-![Alt text](image-1.png)
-This project represents the React challenge, which involves creating a web application similar to Netflix. The project's design is based on the [Figma design](https://www.figma.com/file/jWsqqszcgLAecpsJArCVgI/AluraFlix-ESP-(Copy)?type=design&mode=design&t=SeuJUCGHT8jWQiZf-1) provided by Alura, but you have the flexibility to customize the design to your preferences.
 
-![Alt text](image.png)
-## Project Overview
+Este es un reto de Alura que involucra creación de una aplicación similar a Netflix.
+Se basa en un [Diseño Figma](https://www.figma.com/file/jWsqqszcgLAecpsJArCVgI/AluraFlix-ESP-(Copy)?type=design&mode=design&t=SeuJUCGHT8jWQiZf-1) suministrado por Alura, pero con la flexibilidad de adecuar el diseño a mis preferencias.
+
+
+## Detalles del proyecto
 ```javascript
 // Crea una instancia de axios con la base de la API
 export const api = axios.create({
-  baseURL: "https://fake-api-aluraflix-two.vercel.app/",
+  baseURL: "https://fakeapi.vercel.app/",
   /* usa este url pra hacer pruebas CRUD http://localhost:5555/ */
 });
 ```
 
-My project functions by making CRUD requests to a server. I implemented this using a Fake API with JSON Server. If you want to try out this project, I recommend cloning the repository and replacing the Fake API with the `db.json` file found in the project.
+Mi proyecto funciona realizando solicitudes CRUD a un servidor. Implementé esto usando una API falsa con JSON Server. Si desea probar este proyecto, le recomiendo clonar el repositorio y reemplazar la API falsa con el archivo `db.json` que se encuentra en el proyecto.
 
-
-
-This file already contains all the video data, and all you need to do is run the following command to start JSON Server:
+Este archivo ya contiene todos los datos de los videos y todo lo que necesita hacer es ejecutar el siguiente comando para iniciar JSON Server:
 
 ```shell
 json-server -w -p 5555 db.json
 ```
 
-Next, replace the `baseURL` in the Axios instance with the JSON Server URL:
+Luego, reemplace la `baseURL` en la instancia de Axios con la URL del servidor JSON:
 
 ```javascript
 // Create an Axios instance with the API base URL
@@ -36,8 +35,8 @@ export const api = axios.create({
 });
 ```
 
-Now you can test and interact with the application using the local JSON Server.
+Ahora puedes chequear e interactuar con la aplicación usando el servidor local JSON.
 
-## Getting Started
+## Empecemos
 
-Feel free to clone this repository and customize it to your liking. 💙
+Siéntase libre de clonar este repositorio y personalizarlo como desee. 💙
