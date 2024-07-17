@@ -1,8 +1,8 @@
 # Proyecto final para Oracle One y Alura LATAM
 
 Este proyecto captura datos de una fake api desplegada en vercel:[
-https://fake-api-aluraflix-two.vercel.app/](
-https://fake-api-aluraflix-two.vercel.app/)
+https://fakeapi-weld.vercel.app/](
+https://fakeapi-weld.vercel.app/)
 
 Este es un reto de Alura que involucra creación de una aplicación similar a Netflix.
 Se basa en un [Diseño Figma](https://www.figma.com/file/jWsqqszcgLAecpsJArCVgI/AluraFlix-ESP-(Copy)?type=design&mode=design&t=SeuJUCGHT8jWQiZf-1) suministrado por Alura, pero con la flexibilidad de adecuar el diseño a mis preferencias.
