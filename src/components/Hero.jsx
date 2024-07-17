@@ -94,7 +94,8 @@ const HeroContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  background-image: linear-gradient(236deg, rgb(0 0 16) 21%, rgb(0 0 0) 57%);
+  /* background-image: linear-gradient(236deg, rgb(0 0 16) 21%, rgb(0 0 0) 57%); */
+  background-image: url(./../public/img/desarrollo.jpg);
   justify-content: space-between;
   padding-top: 1rem;
   transition: all 2s ease;
